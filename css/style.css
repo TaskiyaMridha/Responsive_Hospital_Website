@@ -180,6 +180,9 @@ p{
     color:var(--text-black);
     line-height:2;
 }
+.header_wrapper .nav-item{
+  margin:0 .625rem;  
+}
 
 .header_wrapper .nav-item .nav-link{
     font-size: 1.125rem;
@@ -190,7 +193,7 @@ p{
 }
 .header_wrapper .nav-item .nav-link:hover,
 .header_wrapper .nav-item .nav-link:focus,
-.header_wrapper .nav-item .nav-link:active{
+.header_wrapper .nav-item .nav-link.active{
     color:var(--secondary-text);
 }
 
